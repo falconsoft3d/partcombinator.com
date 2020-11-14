@@ -45,4 +45,15 @@ Add ERP
 - Purchase
 - Stock
 - Account
+- MRP
+```
+
+# G helpdesk-combinator
+```
+Add helpdesk
+```
+
+# H bim-combinator
+```
+Add BIM for building
 ```
