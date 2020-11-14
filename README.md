@@ -31,5 +31,6 @@ python, djando, html
 ```
 
 # How we will validate our business model?
-
+```
 We are going to develop some videos where in a few 1 week we will replicate the main online businesses with our methodology. After that we will start creating various replicated local businesses.
+```
