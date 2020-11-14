@@ -20,12 +20,16 @@ Marlon Falcón Hernández | España | Madrid
 Help companies create prootypes and businesses in an accelerated way
 ```
 
-# How are we going to do it
+# How are we going to do it?
 ```
 We will design reusable software parts for industry.
 ```
 
-# What technology will we use
+# What technology will we use?
 ```
 python, djando, html
 ```
+
+# How we will validate our business model?
+
+We are going to develop some videos where in a few 1 week we will replicate the main online businesses with our methodology. After that we will start creating various replicated local businesses.
