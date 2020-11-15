@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Local Apps
-    'apps.basecombinator',
+    # 'apps.basecombinator',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'basecombinator.urls'
+ROOT_URLCONF = 'partcombinator.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'basecombinator.wsgi.application'
+WSGI_APPLICATION = 'partcombinator.wsgi.application'
 
 
 # Database
