@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset ="UTF8">
+    <title>Partcombinator</title>
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'vendor/jquery/js/jquery-3.5.1.slim.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+
+<div style="margin-top:100px;"></div>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="{% url 'home' %}">PartCombinator</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+          <a class="nav-link" href="{% url 'apps' %}">Apps</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <a class="nav-link"  href="{% url 'apps' %}">Login</a>
+    </form>
+  </div>
+</nav>
+
+    <!-- <img src="{% static 'basecombinator/img/caballo.jpg' %}" alt="caballo"> -->
+    <!-- Contenido -->
+    {% block content %}{% endblock %}
+</body>
+<html>
